@@ -27,8 +27,8 @@ export default Ember.Controller.extend({
       return false;
     },
     cancel() {
-      console.log('+- cancel action in friends new controller');
-      //return true;
+      this.transitionToRoute('friends');
+      return false;
     }
   }
 });
