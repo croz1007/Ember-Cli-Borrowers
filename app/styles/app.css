@@ -7,6 +7,10 @@ body {
   width: 100%;
 }
 
+main {
+  padding: 5px 20px;
+}
+
 table {
   width: 100%;
 }
