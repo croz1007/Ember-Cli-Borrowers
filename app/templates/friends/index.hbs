@@ -13,7 +13,7 @@
         <!-- {{#link-to 'friends.show' friend}}
           {{friend.firstName}} {{friend.lastName}}
         {{/link-to}} -->
-        {{link-to friend.fullName 'friends.show' friend}}
+        {{link-to friend.fullName 'articles' friend}}
       </td>
       <td>
         {{friend.totalArticles}}
@@ -25,5 +25,3 @@
     {{/each}}
   </tbody>
 </table>
-
-{{#link-to 'index'}}Home{{/link-to}} {{#link-to 'friends.new'}}Add a Friend{{/link-to}}
