@@ -1,7 +1,6 @@
 # Borrowers
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Following the [Ember-Cli 101 book](https://leanpub.com/ember-cli-101) tutorial to learn Ember. Having scoured the internet for community input, tutorials, and blogs to learn Ember I have found that this book is the BEST option and I highly suggest picking it up.
 
 ## Prerequisites
 
