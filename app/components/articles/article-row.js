@@ -17,6 +17,6 @@ export default Ember.Component.extend({
   }.on('init'),
   stateChanged(){
     var article = this.get('article');
-    console.log(article.get('description') + ' State Changed');
+    // console.log(article.get('description') + ' State Changed');
   }
 });
