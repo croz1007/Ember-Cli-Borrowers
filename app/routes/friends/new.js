@@ -8,7 +8,7 @@ export default Ember.Route.extend({
     console.log('----activate hook called ----');
   },
   deactivate() {
-    console.log('----activate hook called ----');
+    console.log('----deactivate hook called ----');
   },
   resetController: function(controller, isExiting) {
     if(isExiting) {

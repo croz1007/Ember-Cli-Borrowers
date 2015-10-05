@@ -7,5 +7,5 @@ export default DS.Model.extend({
   state: DS.attr('string', {
     defaultValue: 'borrowed'
   }),
-  friend: DS.belongsTo('friend')
+  friend: DS.belongsTo('friend', { async: true })
 });
