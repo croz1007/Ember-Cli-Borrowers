@@ -11,5 +11,12 @@ export default Ember.Component.extend({
         this.sendAction('save', article);
       }
     }
+  },
+  setObserver: function() {
+    this.addObserver('article.state', this, this.stateChanged);
+  }.on('init'),
+  stateChanged(){
+    var article = this.get('article');
+    console.log(article.get('description') + ' State Changed');
   }
 });
